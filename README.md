@@ -29,8 +29,8 @@ Trying Tailwind CSS was overwhelming and applying classes was challenging. Apply
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-recipe-page-ylJnG_6SDN)
-- Live Site URL: [Add live site URL here](https://nandiitha.github.io/recipe-page/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-recipe-page-ylJnG_6SDN]
+- Live Site URL: [https://nandiitha.github.io/recipe-page/]
 
 ## My process
 
