@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link href=”./output.css” rel=”stylesheet”>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Recipe page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-beige flex items-center justify-center min-h-screen flex flex-col"
+  >
+    <main class="max-w-4xl rounded-lg shadow-lg overflow-hidden my-20 mx-20">
+      <img
+        class="rounded-lg p-5"
+        src="assets/images/image-omelette.jpeg"
+        alt="Simple Omelette"
+      />
+      <div class="p-8">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4 font-serif">
+          Simple Omelette Recipe
+        </h1>
+        <p class="text-gray-600 mb-6 font-outfit">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+        <section class="bg-pink-50 rounded-lg mb-6 p-4 font-outfit">
+          <h2 class="text-md font-semibold mb-2 text-pink-700">
+            Preparation Time
+          </h2>
+          <ul class="text-gray-600 list-disc ml-5">
+            <li class="pl-3">
+              <span class="font-bold">Total</span>: Approximately 10 minutes
+            </li>
+            <li class="pl-3">
+              <span class="font-bold">Preparation</span>: 5 minutes
+            </li>
+            <li class="pl-3">
+              <span class="font-bold">Cooking</span>: 5 minutes
+            </li>
+          </ul>
+        </section>
+        <section class="mb-6">
+          <h2 class="text-lg font-semibold text-orange-800 mb-2 font-serif">
+            Ingredients
+          </h2>
+          <ul class="text-gray-600 list-disc list-inside font-outfit">
+            <li class="px-3">2-3 large eggs</li>
+            <li class="px-3">Salt, to taste</li>
+            <li class="px-3">Pepper, to taste</li>
+            <li class="px-3">1 tablespoon of butter or oil</li>
+            <li class="px-3">
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </section>
+        <hr class="divide-y divide-dashed hover:divide-solid p-3" />
+
+        <section class="mb-6">
+          <h2 class="text-lg font-semibold text-amber-700 mb-2 font-serif">
+            Instructions
+          </h2>
+          <ol class="text-gray-600 list-decimal list-inside space-y-2">
+            <li>
+              <span class="font-bold">Beat the eggs</span>: In a bowl, beat the
+              eggs with a pinch of salt and pepper until they are well mixed.
+              Add water or milk for a fluffier texture.
+            </li>
+            <li>
+              <span class="font-bold">Heat the pan</span>: Heat a non-stick
+              frying pan over medium heat and add butter or oil.
+            </li>
+            <li>
+              <span class="font-bold">Cook the omelette</span>: Pour the eggs
+              into the pan and tilt to ensure they evenly coat the surface.
+            </li>
+            <li>
+              <span class="font-bold">Add fillings (optional)</span>: Sprinkle
+              chosen fillings over one half of the omelette when edges begin to
+              set.
+            </li>
+            <li>
+              <span class="font-bold">Fold and serve</span>: Carefully fold the
+              omelette and cook for another minute, then slide onto a plate to
+              serve.
+            </li>
+            <li>
+              <span class="font-bold">Enjoy</span>: Serve hot, with additional
+              salt and pepper if needed.
+            </li>
+          </ol>
+        </section>
+        <hr class="divide-y divide-dashed hover:divide-solid" />
+        <section>
+          <h2 class="text-lg font-semibold text-gray-800 mb-2 font-serif mt-4">
+            Nutrition
+          </h2>
+          <p class="mb-2 font-outfit">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+          <div>
+            <table
+              class="table-auto w-full border-collapse border border-none font-outfit"
+            >
+              <tbody>
+                <tr class="border-b border-gray-200">
+                  <td>Calories</td>
+                  <td>277 kcal</td>
+                </tr>
+                <tr class="border-b border-gray-200">
+                  <td>Carbs</td>
+                  <td>0 g</td>
+                </tr>
+                <tr class="border-b border-gray-200">
+                  <td>Protein</td>
+                  <td>20 g</td>
+                </tr>
+                <tr>
+                  <td>Fat</td>
+                  <td>22 g</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="text-gray-600 text-center p-4 w-full font-11">
+      Challenge by
+      <a
+        class="text-blue-400 hover:underline"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="text-blue-400 hover:underline" href="#">nandiitha</a>.
+    </footer>
+  </body>
+</html>
